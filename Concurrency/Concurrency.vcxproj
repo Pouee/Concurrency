@@ -115,6 +115,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="thread_guard.h" />
+    <ClInclude Include="thread_utility.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="thread_guard.cpp" />
+    <ClCompile Include="互斥量的重入.cpp" />
+    <ClCompile Include="使用unique_lock灵活锁定.cpp" />
+    <ClCompile Include="使用unique_lock进行延时锁定.cpp" />
+    <ClCompile Include="使用层次锁来避免死锁.cpp" />
+    <ClCompile Include="可移动的参数传递.cpp" />
+    <ClCompile Include="启动线程.cpp" />
+    <ClCompile Include="在线程间共享数据.cpp" />
+    <ClCompile Include="在运行时选择线程数量.cpp" />
+    <ClCompile Include="小猪佩奇.c" />
+    <ClCompile Include="接口中固有的竞争条件.cpp" />
+    <ClCompile Include="标识线程.cpp" />
+    <ClCompile Include="死锁(问题和解决方案).cpp" />
+    <ClCompile Include="用互斥元保护共享数据.cpp" />
+    <ClCompile Include="用互斥元保护列表.cpp" />
+    <ClCompile Include="线程局部变量(thread_local).cpp" />
+    <ClCompile Include="转移线程所有权.cpp" />
+    <ClCompile Include="避免死锁的进一步指南.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
